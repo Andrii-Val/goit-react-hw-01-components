@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+/* @import-normalize; bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -16,6 +16,14 @@ code {
     monospace;
 }
 
-/* .e{
-
-} */
+.e :nth-child(2n+1){
+width: 100px;
+color: aliceblue;
+background-color:blue ;
+background-color:rgb(106, 153, 240);
+display: flex;
+list-style: none;
+border: 2px solid rgb(4, 18, 51);
+margin-top: 10px;
+padding: 10px;
+}
