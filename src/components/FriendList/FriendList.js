@@ -1,5 +1,5 @@
 
-import {FriendListItem, FriendIsOnline, FriendIsOfline} from './FriendList.styled'
+import {FriendListItem, FriendIsOnline, FriendIsOfline, Avatarname} from './FriendList.styled'
 export const FriendList =({friends}) => {
     return (
     <ul className="friend-list">
@@ -11,7 +11,7 @@ export const FriendList =({friends}) => {
         : <FriendIsOfline className="status">  {friend.isOnline}</FriendIsOfline>
       }
         <img className="avatar" src={friend.avatar} alt={friend.name} width="48" />
-        <p className="name">{friend.name} </p>
+        <Avatarname className="name">{friend.name} </Avatarname>
       </FriendListItem>
         ))}
 </ul>

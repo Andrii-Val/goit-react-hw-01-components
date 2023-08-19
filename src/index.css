@@ -7,23 +7,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+padding-left: 40px;
  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+
 }
 
-.e :nth-child(2n+1){
-width: 100px;
-color: aliceblue;
-background-color:blue ;
-background-color:rgb(106, 153, 240);
-display: flex;
-list-style: none;
-border: 2px solid rgb(4, 18, 51);
-margin-top: 10px;
-padding: 10px;
-}

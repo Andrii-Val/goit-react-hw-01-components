@@ -26,3 +26,8 @@ border-radius: 50%;
 background-color: red;
 
 `;
+export const Avatarname = styled.p`
+color: black;
+font-weight: 700;
+    margin-left: 15px;
+`;
