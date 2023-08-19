@@ -19,3 +19,10 @@ border-radius: 50%;
 background-color: green;
 
 `;
+export const FriendIsOfline = styled.span`
+width: 20px;
+height: 20px;
+border-radius: 50%;
+background-color: red;
+
+`;
