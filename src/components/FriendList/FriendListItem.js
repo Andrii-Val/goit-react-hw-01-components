@@ -1,7 +1,7 @@
 import {FriendListTitl, FriendIsOnline, FriendIsOfline, Avatarname} from './FriendList.styled'
 
-export function  FriendListItem ({avatar, name, isOnline}){
-    <>
+export const  FriendListItem =({avatar, name, isOnline})=>{
+    
     return(
 
 <FriendListTitl className="item" >
@@ -12,4 +12,4 @@ export function  FriendListItem ({avatar, name, isOnline}){
 <img className="avatar" src={avatar} alt={name} width="48" />
 <Avatarname className="name">{name} </Avatarname>
 </FriendListTitl>
-    )</>;}
+    );}
