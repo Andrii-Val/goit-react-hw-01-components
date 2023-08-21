@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const FriendListItem = styled.li`
+export const FriendListTitl = styled.li`
 list-style: none;
 display: flex;
 border: 2px solid rgb(4, 18, 51);

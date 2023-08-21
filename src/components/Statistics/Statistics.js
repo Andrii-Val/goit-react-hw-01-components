@@ -1,9 +1,9 @@
 import {ListItem , List, StatisticsSection} from './Statistics.styled'
 
-export const Statistics = ({datas})=>{
+export const Statistics = ({datas, title})=>{
     return(
         <StatisticsSection className="statistics">
-  <h2 className="title">Upload stats</h2>
+        { title && <h2 className="title">{title}</h2>}
          <List className="stat-list">
         {datas.map(data=> 
         <ListItem key={data.id } className="item">
